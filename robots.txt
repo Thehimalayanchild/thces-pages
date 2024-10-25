@@ -1,0 +1,7 @@
+# www.robotstxt.org
+# 2024-10-25T17:10:34.802+05:30
+
+User-agent: *
+Disallow: /build.txt
+
+Sitemap: http://thcecostays.in/sitemap.xml
