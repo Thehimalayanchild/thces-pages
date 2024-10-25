@@ -614,6 +614,15 @@ menu a.menu-top:hover {
   transform: scale(1.08, 1.08) rotate(-0.01turn);
 }
 
+/* mobile navigaton elements */
+.mobile-nav-always-show {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
 /* navigation menu done */
 section.highlights {
   padding: 60px 0;
@@ -853,8 +862,7 @@ hr.thin {
 }
 @media screen and (min-width: 1080px) {
   .hidden-on-desktop,
-  .main-nav.hidden-on-desktop,
-  .mobile-main-nav.hidden-on-desktop {
+  .main-nav.hidden-on-desktop {
     display: none;
   }
   .has-submenu {
