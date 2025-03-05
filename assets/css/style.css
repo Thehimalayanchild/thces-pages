@@ -644,7 +644,6 @@ p {
   object-fit: cover;
   border-radius: 0.5rem;
   display: inline-block;
-  max-width: 600px;
 }
 
 .bottom_cta {

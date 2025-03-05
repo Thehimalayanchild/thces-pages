@@ -5,5 +5,4 @@ function domready(func) {
     func();
   }
 }
-
 domready(() => console.log(`DOM is ready`))
