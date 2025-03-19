@@ -933,6 +933,19 @@ hr.thin {
   }
   menu.main-nav a {
     font-size: 0.85rem;
+    text-decoration: none;
+    color: black;
+  }
+  menu.main-nav a span.learn_more {
+    text-decoration: underline;
+    font-weight: bold;
+    color: var(--thc-link);
+  }
+  menu.main-nav a:hover span.learn_more {
+    color: black;
+  }
+  menu.main-nav a .feature-details {
+    padding-left: 4px;
   }
   .nav-wrapper {
     display: flex;
