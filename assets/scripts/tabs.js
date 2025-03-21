@@ -90,6 +90,9 @@ const register_tabs = (tabs, content) => {
     tab.addEventListener('mouseover', tab_handler)
   })
 
-  // handle initial tab activation
-  activate_tab(active_tab, _content);
+  // handle initial tab activation // optional;
+  // not for the case of menu accordions, which shall remain collapsed until
+  // interacted with.
+  // ---
+  // activate_tab(active_tab, _content);
 }

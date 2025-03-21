@@ -1,5 +1,5 @@
 domready(function() {
-  let tab_buttons = document.querySelectorAll('label.tab-btn');
+  let tab_buttons = document.querySelectorAll('.label.tab-btn');
   if(tab_buttons) {
     for(let button of tab_buttons) {
       button.addEventListener('click', tab_manager)

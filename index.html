@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
   <!-- Preconnects -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -73,6 +73,8 @@
           <img src="/assets/brand/thce-logo.png" alt="THC Ecostays Logo" class="brand-link">
         </a>
       </li>
+
+      <!-- nav-common.njk -->
       <li class="has-submenu">
         <a class="menu-top" href="#">Accomodation</a>
         <div class="submenu-drawer">
@@ -154,51 +156,71 @@
             <div class="columns col2">
               
               <div class="column submenu-column">
-                <div class="feature-image">
-                  <img src="/assets/images/features/photo-3.jpg.webp" alt="">
-                </div>
-                <div class="feature-details">
-                  <strong>Seasonal Treks</strong>
-                  <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
-                    <span class="learn_more"><a href="#">Learn more</a></span>
-                  </p>
-                </div>
+                <a href="#" class="unit">
+                  <div class="feature-image">
+                    <img src="/assets/images/features/photo-3.jpg.webp" alt="">
+                  </div>
+                  <div class="feature-details">
+                    <strong>Seasonal Treks</strong>
+                    <p>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
+                      <span class="learn_more">Learn more</span>
+                    </p>
+                  </div>
+                </a>
               </div>
               
               <div class="column submenu-column">
-                <div class="feature-image">
-                  <img src="/assets/images/features/photo-3.jpg.webp" alt="">
-                </div>
-                <div class="feature-details">
-                  <strong>Cultural Tours</strong>
-                  <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
-                    <span class="learn_more"><a href="#">Learn more</a></span>
-                  </p>
-                </div>
+                <a href="#" class="unit">
+                  <div class="feature-image">
+                    <img src="/assets/images/features/photo-3.jpg.webp" alt="">
+                  </div>
+                  <div class="feature-details">
+                    <strong>Cultural Tours</strong>
+                    <p>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
+                      <span class="learn_more">Learn more</span>
+                    </p>
+                  </div>
+                </a>
               </div>
               
               <div class="column submenu-column">
-                <div class="feature-image">
-                  <img src="/assets/images/features/photo-3.jpg.webp" alt="">
-                </div>
-                <div class="feature-details">
-                  <strong>Experience 3</strong>
-                  <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
-                    <span class="learn_more"><a href="#">Learn more</a></span>
-                  </p>
-                </div>
+                <a href="#" class="unit">
+                  <div class="feature-image">
+                    <img src="/assets/images/features/photo-3.jpg.webp" alt="">
+                  </div>
+                  <div class="feature-details">
+                    <strong>Experience 3</strong>
+                    <p>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
+                      <span class="learn_more">Learn more</span>
+                    </p>
+                  </div>
+                </a>
               </div>
               
             </div>
           </div>
         </div>
       </li>
-      <li class="has-submenu"><a class="menu-top" href="#">Our Eco Stays</a></li>
+      <li class="has-submenu">
+        <a class="menu-top" href="#">Our Eco-Stays</a>
+        <div class="submenu-drawer">
+          <div class="submenu">
+            <h3>Browse All Our Eco-Stays</h3>
+            <hr class="thin">
+            <div class="columns">
+              <div class="column submenu-column">
+                My Nest by THCEcoStays, Kausani
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
       <li><a class="menu-top" href="#">Our Story</a></li>
       <li><a class="menu-top" href="#">Contact Us</a></li>
+
     </menu>
 
     <menu class="book-now-menu">
@@ -215,7 +237,7 @@
     </menu>
 
   </div>
-    
+  
 
     <div class="nav-wrapper-mobile">
       <menu class="main-nav hidden-on-desktop">
@@ -250,6 +272,163 @@
           </label>
         </li>
       </menu>
+
+      <input type="checkbox" name="sidebar_nav_switch" id="sidebar_nav">
+      <div class="sidebar-nav-drawer">
+        <span class="close-drawer-switch">
+          <label for="sidebar_nav"> &times; </label>
+        </span>
+
+        <menu class="ext-mobile-nav mobile-nav-always-show hidden-on-desktop" id="nav_drawer">
+          <!-- nav-common.njk -->
+      <li class="has-submenu">
+        <a class="menu-top" href="#">Accomodation</a>
+        <div class="submenu-drawer">
+          <div class="submenu">
+            <h3>Unmatched accomodation in Kausani</h3>
+            <hr class="thin">
+            <div class="columns col2">
+              
+              <div class="column submenu-column">
+                <a href="/kausani/rooms/superior-cottage" class="unit">
+                  <div class="feature-image">
+                    <img src="/assets/images/superior-cottage.jpg.webp" alt="">
+                  </div>
+                  <div class="feature-details">
+                    <strong>Superior Cottage</strong>
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>
+                      <span class="learn_more">Learn more</span>
+                    </p>
+                  </div>
+                </a>
+              </div>
+              
+              <div class="column submenu-column">
+                <a href="/kausani/rooms/superior-family-cottage" class="unit">
+                  <div class="feature-image">
+                    <img src="/assets/images/superior-family-cottages.jpg.webp" alt="">
+                  </div>
+                  <div class="feature-details">
+                    <strong>Superior Family Cottage</strong>
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>
+                      <span class="learn_more">Learn more</span>
+                    </p>
+                  </div>
+                </a>
+              </div>
+              
+              <div class="column submenu-column">
+                <a href="/kausani/rooms/deluxe-double-room" class="unit">
+                  <div class="feature-image">
+                    <img src="/assets/images/superior-cottage.jpg.webp" alt="">
+                  </div>
+                  <div class="feature-details">
+                    <strong>Deluxe Double Room</strong>
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>
+                      <span class="learn_more">Learn more</span>
+                    </p>
+                  </div>
+                </a>
+              </div>
+              
+              <div class="column submenu-column">
+                <a href="/kausani/rooms/deluxe-4-bed-dorm" class="unit">
+                  <div class="feature-image">
+                    <img src="/assets/images/4-bed-dorm.jpg.webp" alt="">
+                  </div>
+                  <div class="feature-details">
+                    <strong>Deluxe 4-Bed Dorm</strong>
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>
+                      <span class="learn_more">Learn more</span>
+                    </p>
+                  </div>
+                </a>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="has-submenu">
+        <a class="menu-top" href="#">Experiences</a>
+        <div class="submenu-drawer">
+          <div class="submenu">
+            <h3>Make Memories with Unique Experiences</h3>
+            <hr class="thin">
+            <div class="columns col2">
+              
+              <div class="column submenu-column">
+                <a href="#" class="unit">
+                  <div class="feature-image">
+                    <img src="/assets/images/features/photo-3.jpg.webp" alt="">
+                  </div>
+                  <div class="feature-details">
+                    <strong>Seasonal Treks</strong>
+                    <p>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
+                      <span class="learn_more">Learn more</span>
+                    </p>
+                  </div>
+                </a>
+              </div>
+              
+              <div class="column submenu-column">
+                <a href="#" class="unit">
+                  <div class="feature-image">
+                    <img src="/assets/images/features/photo-3.jpg.webp" alt="">
+                  </div>
+                  <div class="feature-details">
+                    <strong>Cultural Tours</strong>
+                    <p>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
+                      <span class="learn_more">Learn more</span>
+                    </p>
+                  </div>
+                </a>
+              </div>
+              
+              <div class="column submenu-column">
+                <a href="#" class="unit">
+                  <div class="feature-image">
+                    <img src="/assets/images/features/photo-3.jpg.webp" alt="">
+                  </div>
+                  <div class="feature-details">
+                    <strong>Experience 3</strong>
+                    <p>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
+                      <span class="learn_more">Learn more</span>
+                    </p>
+                  </div>
+                </a>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="has-submenu">
+        <a class="menu-top" href="#">Our Eco-Stays</a>
+        <div class="submenu-drawer">
+          <div class="submenu">
+            <h3>Browse All Our Eco-Stays</h3>
+            <hr class="thin">
+            <div class="columns">
+              <div class="column submenu-column">
+                My Nest by THCEcoStays, Kausani
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li><a class="menu-top" href="#">Our Story</a></li>
+      <li><a class="menu-top" href="#">Contact Us</a></li>
+
+        </menu>
+      </div>
     </div>
 </nav>
 
@@ -438,6 +617,7 @@
     <script type="text/javscript" src="/assets/scripts/script.js"></script>
 
 
+  <script src="/assets/scripts/scripts.js"></script>
   
 </body>
 </html>
