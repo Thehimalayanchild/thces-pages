@@ -541,6 +541,24 @@ body {
   text-align: center;
 }
 
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.min-h-max-vh {
+  height: calc(100vh - 140px);
+}
+
 h1, h2, h3, h4, h5 {
   font-family: "Playfair Display", serif;
   /* some headings on site have the class
@@ -680,6 +698,10 @@ menu a.menu-top:hover {
   opacity: 1;
 }
 
+.call-us {
+  padding: 0 1rem;
+}
+
 html:has(#sidebar_nav:checked) {
   overflow-x: hidden;
   overflow-y: hidden;
@@ -793,6 +815,8 @@ menu.in-content-cta {
   max-width: var(--stacked-button-group-width);
   margin: auto;
   text-align: center;
+  position: relative;
+  z-index: -1;
 }
 menu.in-content-cta li + li {
   margin-top: 1rem;
