@@ -23,6 +23,7 @@
   --outline-button-text-color: var(--solid-button-color);
   --line-button-text-color-ondark: white;
   --line-button-shadow-color-ondark: var(--line-button-text-color-ondark);
+  --stacked-button-group-width: 300px;
 }
 
 @keyframes _menu_fade_in {
@@ -786,6 +787,20 @@ p {
   object-fit: cover;
   border-radius: 0.5rem;
   display: inline-block;
+}
+
+menu.in-content-cta {
+  max-width: var(--stacked-button-group-width);
+  margin: auto;
+  text-align: center;
+}
+menu.in-content-cta li + li {
+  margin-top: 1rem;
+}
+menu.in-content-cta .cta-2 a {
+  display: inline-block;
+  color: var(--thc-link);
+  text-decoration: none;
 }
 
 .bottom_cta {
